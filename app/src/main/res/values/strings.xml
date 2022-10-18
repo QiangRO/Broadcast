@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Broadcast</string>
+    <string name="string">Este boton abre los settings</string>
 </resources>
