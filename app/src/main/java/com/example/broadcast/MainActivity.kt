@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     override fun onInit(status: Int) {
         var respuesta = if (status == TextToSpeech.SUCCESS){
-            voz.language = Locale("ES")
+            voz.language = Locale("en-GB")
             "Todo ha salido bien"
         }else "Algo ha fallado, prueba mas tarde"
         Toast.makeText(this,respuesta, Toast.LENGTH_SHORT).show()
